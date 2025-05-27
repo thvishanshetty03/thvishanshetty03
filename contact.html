@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Thvishan Shetty</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: radial-gradient(circle at 50% 100%, #000000 60%, #0a0a0a 100%);
+      min-height: 100vh;
+    }
+    .contact-main {
+      max-width: 900px;
+      margin: 4rem auto;
+      background: rgba(0,0,0,0.95);
+      border-radius: 32px;
+      box-shadow: 0 8px 40px 0 rgba(0,0,0,0.6);
+      display: flex;
+      align-items: center;
+      padding: 0 0 0 0;
+      overflow: hidden;
+    }
+    .contact-left {
+      flex: 1.2;
+      padding: 3rem 2.5rem 3rem 3.5rem;
+      color: #fff;
+    }
+    .contact-left h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+    .contact-left h2 {
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: #a3ffb3;
+      margin-bottom: 1.2rem;
+    }
+    .contact-left p {
+      color: #cfcfcf;
+      margin-bottom: 2rem;
+      font-size: 1.08rem;
+    }
+    .contact-info {
+      margin-bottom: 2rem;
+    }
+    .contact-info p {
+      margin: 0.2rem 0 0.7rem 0;
+      color: #fff;
+      font-size: 1.08rem;
+    }
+    .contact-social {
+      margin-bottom: 2.2rem;
+    }
+    .contact-social a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0.7rem;
+      color: #a3ffb3;
+      font-size: 1.3rem;
+      background: #000000;
+      border-radius: 50%;
+      width: 38px;
+      height: 38px;
+      transition: all 0.3s ease;
+    }
+    .contact-social a:hover {
+      background: #a3ffb3;
+      color: #000000;
+    }
+    .contact-form {
+      margin-top: 1.5rem;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      background: #000000;
+      border: 1px solid rgba(163, 255, 179, 0.3);
+      border-radius: 12px;
+      color: #fff;
+      padding: 0.9rem 1.1rem;
+      margin-bottom: 1.1rem;
+      font-size: 1rem;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+    .contact-form input:focus, .contact-form textarea:focus {
+      background: rgba(163, 255, 179, 0.05);
+      border: 2px solid #a3ffb3;
+      box-shadow: 0 0 10px rgba(163, 255, 179, 0.1);
+    }
+    .contact-form button {
+      background: linear-gradient(90deg, #a3ffb3 0%, #00ff88 100%);
+      color: #23272f;
+      border: none;
+      border-radius: 12px;
+      padding: 0.9rem 2.2rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    .contact-form button:hover {
+      background: #23272f;
+      color: #a3ffb3;
+      border: 1.5px solid #a3ffb3;
+    }
+    .contact-right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: none;
+      min-height: 350px;
+      position: relative;
+    }
+    .contact-avatar {
+      position: relative;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: #23272f;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 2.5rem 0;
+      box-shadow: 0 0 0 8px #1a1e23, 0 0 32px 0 #00ff8855;
+    }
+    .contact-avatar img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #a3ffb3;
+      background: #23272f;
+    }
+    .avatar-circle {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      border-radius: 50%;
+      border: 3px solid #a3ffb3;
+      border-left: 3px solid transparent;
+      border-bottom: 3px solid transparent;
+      pointer-events: none;
+      animation: spin 4s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @media (max-width: 900px) {
+      .contact-main {
+        flex-direction: column;
+        padding: 0;
+      }
+      .contact-left, .contact-right {
+        padding: 2rem 1.2rem;
+      }
+      .contact-right {
+        margin-bottom: 2rem;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="index.html#skills">Skills</a>
+    <a href="contact.html" style="color:#a3ffb3;">Contact</a>
+  </nav>
+  <div class="contact-main">
+    <div class="contact-left">
+      <h1>Contact Me</h1>
+      <h2>Let's connect and collaborate!</h2>
+      <p>Feel free to reach out for any project, collaboration, or just to say hi. I'll get back to you as soon as possible.</p>
+      <div class="contact-info">
+        <p><strong>Email:</strong> shettythvishan@gmail.com</p>
+        <p><strong>Phone:</strong> +91-7975563032</p>
+      </div>
+      <div class="contact-social">
+        <a href="https://github.com/thvishanshetty03" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/thvishan_03/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shettythvishan@gmail.com" target="_blank" title="Mail"><i class="fas fa-envelope"></i></a>
+      </div>
+      <form class="contact-form" onsubmit="event.preventDefault(); sendEmail();" autocomplete="off">
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+        <input type="email" name="email" id="email" placeholder="Your Email" required>
+        <textarea name="message" id="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      
+      <script>
+        function sendEmail() {
+          const name = document.getElementById('name').value;
+          const email = document.getElementById('email').value;
+          const message = document.getElementById('message').value;
+          
+          // Format the body with proper URL encoding
+          const body = `From: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`.replace(/\n/g, '%0D%0A');
+          const subject = `Portfolio Contact from ${name}`;
+          
+          // Create Gmail compose URL
+          const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=shettythvishan@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+          
+          // Open Gmail in new tab
+          window.open(gmailUrl, '_blank');
+          
+          // Reset form after submission
+          document.getElementById('name').value = '';
+          document.getElementById('email').value = '';
+          document.getElementById('message').value = '';
+          
+          // Show success message
+          alert('Opening Gmail compose window. Your message will be pre-filled.');
+        }
+      </script>
+    </div>
+    <div class="contact-right">
+      <div class="contact-avatar">
+        <img src="profile.png" alt="Profile Photo">
+        <div class="avatar-circle"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
