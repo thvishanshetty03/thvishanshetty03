@@ -138,6 +138,35 @@
         margin-bottom: 2rem;
       }
     }
+    
+    .resume-btn {
+      margin: 1.5rem 0;
+    }
+    
+    .download-resume {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: linear-gradient(90deg, #a3ffb3 0%, #00ff88 100%);
+      color: #000000;
+      text-decoration: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+    }
+    
+    .download-resume:hover {
+      background: transparent;
+      color: #a3ffb3;
+      border: 2px solid #a3ffb3;
+    }
+    
+    .download-resume i {
+      font-size: 1.2rem;
+    }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
@@ -151,6 +180,11 @@
     <div class="home-left">
       <h1>Thvishan Shetty</h1>
       <h2>I'm a <span style="color:#a3ffb3;">Python & C++ Developer</span></h2>
+      <div class="resume-btn">
+        <a href="assets/Thvishan_Shetty_Resume.pdf" download class="download-resume">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
       <div class="edu-roadmap">
         <div class="edu-step">
           <div class="edu-dot"></div>
