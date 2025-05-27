@@ -45,7 +45,3 @@ Feel free to reach out for:
 - Project discussions
 - Professional networking
 - General inquiries
-
----
-⭐ From [Thvishan Shetty](https://github.com/thvishanshetty03)<!--
-**thvishanshetty03/thvishanshetty03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
